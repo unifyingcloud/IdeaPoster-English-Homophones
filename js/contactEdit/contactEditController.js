@@ -25,7 +25,7 @@ define(["app", "js/contactModel", "js/contactEdit/contactEditView"], function(ap
 
 	function deleteContact() {
 		app.f7.actions([[{
-			text: 'Delete Contact',
+			text: 'Delete word',
 			red: true,
 			onClick: function() {
 				var Homophones = JSON.parse(localStorage.getItem("f7Homophones"));
