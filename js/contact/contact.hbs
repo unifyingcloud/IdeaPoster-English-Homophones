@@ -6,7 +6,10 @@
 		<div class="header-text">
 			{{#if model.isFavorite}}<i class="icon icon-favorite ion-ios7-star"></i>{{/if}}
 			<h3>{{model.firstName}}  </h3>
- 
+			<audio autoplay><source src=http://tts-api.com/tts.mp3?q={{model.firstName}} type=audio/mpeg></audio>
+			
+  
+
 		</div>
 	</div>
 	<div class="list-block">
